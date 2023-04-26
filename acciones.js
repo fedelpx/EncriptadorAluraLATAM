@@ -72,7 +72,7 @@ function desencriptarMensaje(){
 function copiarTexto(){
     var texto = document.querySelector("#resultado");
     texto.select();
-    texto.setSelectionRange(0, 99999); /* For mobile devices */
+    texto.setSelectionRange(0, 99999); /* Para telefonos celulares */
     navigator.clipboard.writeText(texto.value);
 }
 
