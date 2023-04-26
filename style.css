@@ -12,7 +12,7 @@
     --borderBoton: rgb(19,38,92);
     --borderState: ridge;
     --hooverColor: hwb(240 28% 45%);
-    --logo: url("./Imagenes/Logo.svg");
+    --logo: url("./imagenes/Logo.svg");
     
 }
 
@@ -32,7 +32,7 @@
     --encriptarBackground: #3c3c68;
     --borderState: hidden;
     --hooverColor: hsl(240, 47%, 23%);
-    --logo: url("./Imagenes/Logo.svg");
+    --logo: url("./imagenes/Logo.svg");
 }
 
 body{
