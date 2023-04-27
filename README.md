@@ -9,6 +9,9 @@ El Challenge consiste en crear desde cero un programa que encripte, desencripte 
 
 Puedes probar el Encryptador aquí: https://fedelpx.github.io/EncryptadorAluraLATAM/
 
+**This code defines a web page with an interactive feature that allows users to encrypt and decrypt messages.
+
+The code uses JavaScript to manipulate the HTML elements of the page, and it includes four main functions: mostrar(), actualizarPantalla(), encriptarMensaje(), desencriptarMensaje(), and copiarTexto().**
 
 # javasScriptLog.
 
