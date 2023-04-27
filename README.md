@@ -48,7 +48,7 @@ Esta función es llamada cuando le usuario clickea en le boton //Desencriptar// 
 
 Primero toma el texto ingresado por el usuario en HTML: id="texto" entonces incia dos arrays: "codigos" y "letras". El array "codigos" contiene expresiones que son iguales a las palabras en codigo usadas en el proceso de encriptado, mientras el array "letras" contiene las correspondientes vocales que deberían usarse para remplazar las palabras en codigo.
 
-La función entonces chequea si la variaboe "mensaje" son es un string vacio y hace las comprobaciones de mayus, acentos y longitud del mensaje. Si alguna de esas condiciones no son cumplidas, muestra un mensaje de alerta a el usuario para que ingrese minusculas y palabras sin acentuar. 
+La función entonces chequea si la variaboe "mensaje" es un string vacio y hace las comprobaciones de mayus, acentos y longitud del mensaje. Si alguna de esas condiciones no son cumplidas, muestra un mensaje de alerta a el usuario para que ingrese minusculas y palabras sin acentuar. 
 
 Si las condiciones son cumplidas, la funcion inicia un loop a traves de cada item en el array "codigos" usando 'for'. Por cada item, usa la función "replaceAll()" para reemplazar todas las concatenaciones de la palabra clave en el string "mensaje" con la correspondiente vocal del array "letras".
 
