@@ -24,7 +24,7 @@ Este codigo define una serie de funciones que son usadas para encriptar y desenc
 
 *La función "copiarTexto()" es usada para copiar el mensaje encriptado o desencriptado cuando el usuario clickea en el boton con el id"copiar".
 
-Por ultimo el codigo tambien programa eventos cuando el usuario clickea en los botones con el id: "encriptar", "desencriptar", "copiar y cuando el usuario clickea en el diamante, lo que cambia al modo nocturno. 
+Por ultimo el codigo tambien programa eventos cuando el usuario clickea en los botones con el id: "encriptar", "desencriptar", "copiar" y cuando el usuario clickea en el diamante, lo que cambia al modo nocturno. 
 
 -----------------------------------------------------------------------------------
 
@@ -35,7 +35,7 @@ Por ultimo el codigo tambien programa eventos cuando el usuario clickea en los b
 Esta función es llamdada cuando el usuario clickea en el boton //Encriptar// de la pagina. Primero, recoge el texto ingresado por el usuario en el HTML:
 <input>"texto", entonces inicia una variable con string vacio llamada "secreto" para retener el mensaje encriptado.
 
-La función entonces chequea la variable "mensaje" no es un string vacio o contiene letras mayusculas o acentuadas y tambien controla que el mensaje tenga cierta longitud usando la función "trim()". Si alguna de de estas condiciones no son cumplidas, muestra una alerta al usuario para que ingrese minusculas sin acento.
+La función entonces chequea que la variable "mensaje" no es un string vacio o contiene letras mayusculas o acentuadas y tambien controla que el mensaje tenga cierta longitud usando la función "trim()". Si alguna de de estas condiciones no son cumplidas, muestra una alerta al usuario para que ingrese minusculas sin acento.
 
 Si las condiciones son cumplidas, la función comienza un loop por cada carácter del string "mensaje" usando 'for' {Por cada carácter usa la declaración 'switch' que chequea si es igual a alguna de las vocales a,e,i,o,u. Si el carácter es una vocal, el codigo correspondiente es adjuntado al string de la vareable "secreto". Si no es una vocal el carácter original es adjuntado al string "secreto".
 
@@ -44,7 +44,7 @@ Una vez que el loop es completado, la funcion "actualizarPantalla()" es llamada 
 
 "desencriptarMensaje()"
 
-Esta función es llamada cuando le usuario clickea en le boton //Desencriptar// de la pagina. Sigue un patron similar a "encriptarMensaje()" con algunas diferencias fundamemntales.
+Esta función es llamada cuando el usuario clickea en le boton //Desencriptar// de la pagina. Sigue un patron similar a "encriptarMensaje()" con algunas diferencias fundamemntales.
 
 Primero toma el texto ingresado por el usuario en HTML: id="texto" entonces incia dos arrays: "codigos" y "letras". El array "codigos" contiene expresiones que son iguales a las palabras en codigo usadas en el proceso de encriptado, mientras el array "letras" contiene las correspondientes vocales que deberían usarse para remplazar las palabras en codigo.
 
