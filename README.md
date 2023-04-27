@@ -10,7 +10,7 @@ El Challenge consiste en crear desde cero un programa que encripte, desencripte 
 Puedes probar el Encryptador aquí: https://fedelpx.github.io/EncryptadorAluraLATAM/
 
 
-# javasSriptLog.
+# javasScriptLog.
 
 Este codigo define una serie de funciones que son usadas para encriptar y desencriptar mensajes ingresados por el usuario.
 
