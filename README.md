@@ -11,10 +11,12 @@ El Challenge consiste en crear desde cero un programa que encripte, desencripte 
 
 # Puedes probar el Encryptador aquí: https://fedelpx.github.io/EncryptadorAluraLATAM/
 
-Descripción
-Desencripta nuestro mensaje secreto!
+Descripción:
 
+Desencripta nuestro mensaje secreto!
+//
 fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!
+//
 
 **This code defines a web page with an interactive feature that allows users to encrypt and decrypt messages.
 
